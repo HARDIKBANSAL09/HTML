@@ -1,0 +1,75 @@
+Text-property
+
+1. color: colorName | rgb(0-255) | rgba(0-255, 0-1) | hexa (0-9 a-f)
+2. text-align: left | right | center | justify
+3. text-decoration-line: underline | overline |line-through
+4. text-decoration-color: colorName | rgb(0-255) |rgba(0-255, 0-1) | hexa (0-9 a-f)
+5. text-decoration-thickness: measurement in px, in, cm,%,vh,vw,em
+6. text-decoration-style: solid | wavy |double |dotted |dashed | none
+7. text-decoration: shorthand property
+8. text-indent: measurement
+9. word-spacing: measurement
+10. letter-spacing: measurement
+11. line-height: measurement
+12. text-tranform: uppercase | lowercase |captialize
+13. white-space: property
+14. text-shadow: measurement[x] measurement[y] measurement[blur] colorName[color]
+
+Font property
+
+1. font-size: measurement
+2. font-weight: 100-900 | bold | bolder | lig
+3. font-style: italic
+4. font-style: Arial, Roboto, "Times new Roman"
+5. font-variant: small-caps
+
+
+Background property
+
+1.background-color: colorName
+2.background-image: url("imagepath")
+3.background-repeat: repeat | no-repeat | repeat-x | repeat-y
+4.background-attachement: scroll | fixed
+5.background-position: top |bottom |center|left|right
+6.background-size: cover
+
+cursor property
+1. cursor: pointer | n-resize | zoom in
+
+Box model
+
+<h3>Good morning</h3>
+
+Padding property->Every content will be surrounded by padding
+
+1.padding-top: measurement
+2.padding-bottom: measurement
+3.padding-left: measurement
+4.padding-right: measurement
+5.padding: measurement[t] measurement[r] measurement[b] measurement[l]
+6.padding: measurement[t] measurement[r&l] measurement[b]
+7.padding: measurement[t&b] measurement[r&l]
+8.padding:measurement[t&b&r&l]
+
+
+Border property->Every padding will be surrounded by Border
+1.border-width: measurements
+2.border-style: solid,double,wavy,groove
+3.border-color: colorName
+4.border: shorthand property
+5.border-radius: measurement
+
+Margin property->Each border surrounded by Margin
+1.Margin-top: measurement
+2.Margin-bottom: measurement
+3.Margin-left: measurement
+4.Margin-right: measurement
+5.Margin: measurement[t] measurement[r] measurement[b] measurement[l]
+6.Margin: measurement[t] measurement[r&l] measurement[b]
+7.Margin: measurement[t&b] measurement[r&l]
+8.Margin:measurement[t&b&r&l]
+
+position property
+position: static | relative |absolute | fixed |sticky
+
+Z-index: Whole numbers

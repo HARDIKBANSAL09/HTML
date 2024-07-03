@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"/>
+</head>
+<body>
+    <h1>Normal image</h1>
+    <img src="./css.jpeg" alt="bug picture"/>
+
+    <h1>Bootstrap image - Rounded</h1>
+    <img class = "rounded" src="./css.jpeg" alt="bug pictute"/>
+
+    <h1>Bootstrap image - Thumbnail</h1>
+    <img class ="img-thumbnail" src="./css.jpeg" alt="bug picture"/>
+
+    <h1>Bootstrap image - Responsive</h1>
+    <img class ="img-fluid" src="./css.jpeg" alt="bug picture"/>
+
+    <hr/>
+
+    <h1>Normal table</h1>
+    <table>
+        <tr><th>Heading 1</th> <th>Heading 2</th></tr>
+        <tr><td>R1C1</td> <td>R1C2</td> </tr>
+        <tr><td>R2C1</td> <td>R2C2</td> </tr>
+        <tr><td>R3C1</td> <td>R3C2</td> </tr>
+    </table>
+
+    <h1>Bootstrap table</h1>
+    <table class ="table">
+        <tr> <th>Heading 1</th> <th>Heading 2</th></tr>
+        <tr> <td>R1C1</td> <td>R1C2</td> </tr>
+        <tr> <td>R2C1</td> <td>R2C2</td> </tr>
+        <tr> <td>R3C1</td> <td>R3C2</td> </tr>
+    </table>
+
+    <h1>Bootstrap table - red,borders</h1>
+    <table class ="table table-danger table-bordered">
+        <tr><th>Heading 1</th> <th>Heading 2</th></tr>
+        <tr><td>R1C1</td> <td>R1C2</td> </tr>
+        <tr><td>R2C1</td> <td>R2C2</td> </tr>
+        <tr><td>R3C1</td> <td>R3C2</td> </tr>
+    </table>
+
+    <h1>Bootstrap table - yellow,without-borders</h1>
+    <table class ="table table-warning table-borderless">
+        <tr><th>Heading 1</th> <th>Heading 2</th></tr>
+        <tr><td>R1C1</td> <td>R1C2</td> </tr>
+        <tr><td>R2C1</td> <td>R2C2</td> </tr>
+        <tr><td>R3C1</td> <td>R3C2</td> </tr>
+    </table>
+
+    <h1>Bootstrap table - green , striped</h1>
+    <table class="table table-success table-striped">
+        <tr><th>Heading 1</th> <th>Heading 2</th></tr>
+        <tr><td>R1C1</td> <td>R1C2</td> </tr>
+        <tr><td>R2C1</td> <td>R2C2</td> </tr>
+        <tr><td>R3C1</td> <td>R3C2</td> </tr>
+    </table>
+
+    <h1>Bootstrap table - blue , hover</h1>
+    <table class="table table-primary table-hover">
+        <tr><th>Heading 1</th> <th>Heading 2</th></tr>
+        <tr><td>R1C1</td> <td>R1C2</td> </tr>
+        <tr><td>R2C1</td> <td>R2C2</td> </tr>
+        <tr><td>R3C1</td> <td>R3C2</td> </tr>
+    </table>
+
+    <h1>Bootstrap table - skyblue , less pading</h1>
+    <table class="table table-info table-sm">
+        <tr><th>Heading 1</th> <th>Heading 2</th></tr>
+        <tr><td>R1C1</td> <td>R1C2</td> </tr>
+        <tr><td>R2C1</td> <td>R2C2</td> </tr>
+        <tr><td>R3C1</td> <td>R3C2</td> </tr>
+    </table>
+
+    <h1>Bootstrap table - gray , hover, striped,table-bordered</h1>
+    <table class = "table table-secondary table-hover table-striped table-bordered">
+        <tr><th>Heading 1</th> <th>Heading 2</th></tr>
+        <tr><td>R1C1</td> <td>R1C2</td> </tr>
+        <tr><td>R2C1</td> <td>R2C2</td> </tr>
+        <tr><td>R3C1</td> <td>R3C2</td> </tr>
+    </table>
+    
+    <hr/>
+
+    <h1>Normal form</h1>
+    <form>
+        <div>
+            <label>User name</label>
+            <input type="text"/>
+        </div>
+
+        <div>
+            <label>Password</label>
+            <input type="password"/>
+        </div>
+
+        <div>
+            <button type="submit">log in</button>
+        </div>
+    </form>
+
+    <h1>Bootstrap form</h1>
+    <form class="form">
+        <div class="input-group">
+            <label class="form-label">User name</label>
+            <input class="form-control" type="text"/>
+        </div>
+
+        <div class="input-group">
+            <label class="form-label">Password</label>
+            <input class="form-control" type="password"/>
+        </div>
+
+        <div class="text-center">
+            <button class="btn btn-primary" type="button">log in</button>
+        </div>
+    </form>
+
+</body>
+</html>

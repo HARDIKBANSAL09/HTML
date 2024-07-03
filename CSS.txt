@@ -1,0 +1,51 @@
+Introduction to CSS
+-> Cascading stylesheets
+-> Make webpages more attractive
+-> Easy to learn
+-> Single singlesheet can be used for multiple HTMl files
+-> Global web standards
+-> Multiple device compactiability
+-> Latest version CSS3
+
+
+Ways to style a HTML files
+1. Inline styling - Using style attribute inside the opening tag
+2. Internal styling - Using style tag inside the head tag
+3. External styling - We create a seperate css file and with
+                    current HTML using link tag inside the head tag.
+
+
+Syntax for styling
+selectors
+{
+    property:value;
+}
+
+Type of selectors
+1.Element selectors[tagName]
+2.Id selectors[#idName]
+3.class selectors[.className]
+4.Group selectors[tagName, tagName]
+5.Universal selectors[*]--entire document color will be changed
+
+precedence
+<link/>
+<style>
+
+Internal styling has high precedence
+
+<style>
+<link/>
+
+External styling has high precedence
+
+precedence of selectors
+
+1. Id selectors
+2.class selectors
+3. Element selector | Group selector
+4. Universal selector
+
+property: values;
+
+1. color
